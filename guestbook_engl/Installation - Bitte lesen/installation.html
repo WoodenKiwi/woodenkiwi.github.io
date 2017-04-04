@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+<meta name="Description" content="Installation - YellaBook" />
+
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!-- CSS -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection, tv" />
+<link rel="stylesheet" href="css/style-print.css" type="text/css" media="print" />
+
+<title>Installation - YellaBook</title>
+
+</head>
+
+<body>
+<div id="wrapper">
+
+	
+
+<hr class="noscreen" />
+
+	<div class="content">
+
+	
+		
+		<div id="skip-menu"></div>
+		<div class="column-right">
+			<div class="box">
+			<div class="box-top"></div>
+			<div class="box-in">
+				<h2><strong>Installationsanleitung - YellaBook</strong> (yellabook.de)</h2>
+<p></p>
+
+<p><br /><strong>Voraussetzungen:</strong><br />
+
+- PHP 5<br />
+- htaccess muss aktiviert sein<br />
+- FTP-Zugang zum Server</p>
+
+
+<p><strong>Info:</strong> In den allermeisten F&auml;llen sind die genannten Voraussetzungen erf&uuml;llt. Ansonsten kontaktieren Sie bitte Ihren Webhoster.</p>
+
+<p> Wenn Sie per E-Mail &uuml;ber Neueintr&auml;ge informiert werden m&ouml;chten, muss der Server das Versenden von E-Mails &uuml;ber die PHP-Funktion "mail()" unterst&uuml;tzen. Mehr dazu unter Punkt 5.</p>
+
+
+
+<p><br /><strong>Befolgen Sie bitte die folgenden Schritte, um das G&auml;stebuch zu installieren!</strong></p>
+		
+		<ol style="display: block; list-style-type: decimal; margin: 1em 0; padding-left: 45px; counter-reset: -html-counter 0;"><li><p>Unter <strong><a href="http://www.yellabook.de/gaestebuch-php-script-download.html">Download</a></strong> herunterladen.</p></li> 
+		
+		<li><p>Dateien aus <strong>yellabook.zip</strong> in einen Ordner auf Ihrer Festplatte entpacken.</p></li> 
+		
+		
+		<li><p>Alle Dateien in das Hauptverzeichnis (root) auf Ihren Server/Webspace uploaden. <strong>Bitte beachten:</strong> Der Ordnername "guestbook" sowie die gesamte Ordnerstruktur muss beibehalten werden bzw. darf nicht umbenannt werden.</p></li> 
+		
+		<li><p>Folgende Dateien/Ordner ben&ouml;tigen die Rechte (chmod) 777:<br />
+-	guestbook/data/<br />
+-	guestbook/data/data.txt<br />
+-	guestbook/data/config.php<br />
+- guestbook/data/securequestions.txt<br /><strong>Info:</strong> Dieser Schritt kann ggf. &uuml;bersprungen werden, da das Setzen von Dateirechten auf bestimmten Servern nicht notwendig ist. Bei Problemen hierzu k&ouml;nnen Sie mir auch eine <a href="http://www.yellabook.de/gaestebuch-php-script-kontakt.html">Mail</a> schreiben!</p></li>  
+
+		<li><p>Datei mail-test.php (im Ordner guestbook) im Browser aufrufen, Ihre E-Mail Adresse eingeben und auf Senden klicken. Nun wird &uuml;berpr&uuml;ft, ob die PHP-Funktion "mail()" aktiviert ist. Somit wird sichergestellt, dass Sie auch E-Mails &uuml;ber die "Benachrichtigungsfunktion" empfangen k&ouml;nnen.<br /><a href="http://www.yellabook.de/gaestebuch-php-script-hosteurope.html">Info f&uuml;r Hosteurope Kunden!</a></p></li> 
+		
+		<li><p>Den Administrationsbereich k&ouml;nnen Sie nun aufrufen, indem Sie in Ihrem Browser folgenden Link eingeben (ersetzen Sie "ihredomain.de" mit Ihrer eigenen Domain): http://ihredomain.de/guestbook/ <br /><br />Die Standard-Zugangsdaten lauten:<br />
+Benutzername: gbadmin<br />
+Passwort: gbpass<br /><br /> &Auml;ndern Sie bitte als erstes unter "Einstellungen" den Standard-Benutzernamen und das Passwort f&uuml;r den Admin-Bereich!<br /><br /><strong>Spam verhindern:</strong> Um einen effektiven Spamschutz zu gew&auml;hrleisten, empfehle ich Ihnen individuelle Sicherheitsfragen zu formulieren und die vorhandenen Sicherheitsfragen zu ersetzen. Diese k&ouml;nnen Sie bequem im Administrationsbereich erstellen. ("Sicherheitsfragen bearbeiten")
+</p></li> 
+		
+		<li><p>guestbook.php im Browser aufrufen. <strong>Fertig!</strong><br />Um die Breite oder die Hintergrundfarbe zu &auml;ndern, m&uuml;ssen Sie die Datei style.css mit einem Editor (z.B. <a href="http://www.chip.de/downloads/Notepad2-32-Bit_13013323.html">Notepad2</a>) &ouml;ffnen. Siehe <a href="http://www.yellabook.de/gaestebuch-php-script-faq.html">FAQ</a>. <br /><br />Mehr zur Anpassung des Designs finden Sie im <a href="http://www.yellabook.de/gaestebuch-php-script-benutzerhandbuch.html">Handbuch</a>.<br /><br /><span style="color: red; font-weight: bold;">Antworten auf h&auml;ufig gestellte Fragen sowie zu etwaigen Fehlermeldungen, finden Sie unter <a href="http://www.yellabook.de/gaestebuch-php-script-faq.html">FAQ</a>.</span></p></li>
+		
+		
+		</ol>
+<br />
+
+
+
+
+
+
+<h2>Einbindung/Integrierung in Ihre Homepage</h2>
+
+
+
+
+
+
+<p></p>
+
+
+
+<p>Sie k&ouml;nnen das G&auml;stebuch per Link, iframe oder PHP-Include auf Ihrer Seite einbinden.<br /><br />
+
+
+<strong>Einbinden per Link</strong><br /><br />
+
+Am einfachsten ist die Einbindung des G&auml;stebuchs per Link. F&uuml;gen Sie dazu einfach folgenden Code an die gew&uuml;nschte Stelle Ihrer Website ein und passen Sie ggf. die Bezeichnung "G&auml;stebuch" an:<br /><br />
+
+<i>&lt;a href="guestbook.php">G&auml;stebuch&lt;/a></i><br /><br />
+
+
+<strong>Einbinden per iframe</strong><br /><br />
+
+Sie k&ouml;nnen das G&auml;stebuch auf Ihrer Website auch via iframe einbinden. Der Vorteil: das G&auml;stebuch erscheint im Rahmen Ihrer Website und nicht als eigenst&auml;ndige Seite. Die Navigation Ihrer Website wird weiterhin angezeigt. F&uuml;gen Sie dazu einfach diesen Code in Ihre Website ein:<br /><br />
+
+<i>&lt;iframe src="guestbook.php" width="700" name="guestbook" id="guestbook" style="border: none;">
+&lt;p>&lt;a href="guestbook.php">G&auml;stebuch&lt;/a>&lt;/p>
+&lt;/iframe></i><br /><br />
+
+Sie k&ouml;nnen die Breite des iframes anpassen, indem Sie den Wert "700" bei width="700" ver&auml;ndern.<br /><br /><b>Wichtiger Hinweis:</b> Wenn Sie das G&auml;stebuch responsive nutzen m&ouml;chten, muss die Angabe width immer 100% betragen, also:<br /><br />
+
+<i>&lt;iframe src="guestbook.php" width="100%" name="guestbook" id="guestbook" style="border: none;">
+&lt;p>&lt;a href="guestbook.php">G&auml;stebuch&lt;/a>&lt;/p>
+&lt;/iframe></i>
+
+<br /><br />
+
+Die H&ouml;he wird (standardm&auml;&szlig;ig) bei Nutzung eines Desktop PC automatisch angepasst. Eine automatische H&ouml;henanpassung bei Nutzung eines mobilen Endger&auml;tes (Smartphone, Tablet) kann mit diesem <a href="http://www.knothemedia.de/iframe-responsive-gestalten.html">iframe responsive</a> umgesetzt werden. <br /><br /><strong>H&ouml;he des iframes selbst anpassen:</strong> Um die H&ouml;he selbst anzupassen, m&uuml;ssen Sie direkt hinter width="700" dies schreiben: <i>height="650"</i> Die H&ouml;he des iframes betr&auml;gt nun 650px. Sie k&ouml;nnen nun <i>name="guestbook"</i> und <i>id="guestbook"</i> l&ouml;schen. <br /><br />Bitte achten Sie auch auf den Pfad zwischen <strong>src=""</strong> und <strong>href=""</strong>. Falls das G&auml;stebuch also im Ordner gaestebuch ist, muss der Pfad so aussehen: <i>src="gaestebuch/guestbook.php"</i> und <i>href="gaestebuch/guestbook.php"</i><br /><br />
+
+
+<strong>Einbinden per PHP-include</strong><br /><br />
+
+Wenn Ihre Website mit PHP umgesetzt wurde und Sie Kenntnisse in PHP besitzen, k&ouml;nnen Sie das G&auml;stebuch auch per PHP-include einbinden. Nutzen Sie dazu folgenden Code:<br /><br />
+
+<i>require_once('guestbook.php');</i><br /><br />
+
+Binden Sie das G&auml;stebuch mit dieser Variante ein, m&uuml;ssen Stylesheet und ggf. der Zeichensatz Ihrer Website angepasst werden. Das G&auml;stebuch ist in UTF-8 umgesetzt. Sollten Sonderzeichen fehlerhaft angezeigt werden, liegt es daran, dass der Zeichensatz Ihrer Website nicht UTF-8 Ist. Das Stylesheet finden Sie hier: guestbook/style.css. Informationen zum Anpassen des Stylesheets finden Sie auch im Benutzerhandbuch unter Kapitel 8.</p>
+
+
+<p>Bei Fragen oder Problemen k&ouml;nnen Sie mich jederzeit gerne <strong><a href="http://www.YellaBook.de/gaestebuch-php-script-kontakt.html">kontaktieren</a></strong>.</p>
+<br /><br />
+<h2>Kostenloser Installationsservice</h2>
+<p>Sollte es dennoch zu Problemen bei der Installation kommen, so stehe ich Ihnen jederzeit mit kostenlosem Support zur Verf&uuml;gung. Bitte nutzen Sie das Kontaktformular. In der Regel antworte ich Ihnen binnen 12 Stunden. Bitte versuchen Sie Ihr Problem so genau wie m&ouml;glich zu schildern.</p>
+<br /><br />
+<h2>Infos</h2>
+<p></p>
+<p>Das YellaBook ist ein innovatives PHP G&auml;stebuch Script f&uuml;r Ihre Homepage. Der Copyrighthinweis in der Fu&szlig;zeile des Scripts darf nicht entfernt oder verdeckt werden. Wer Ihn dennoch entfernen m&ouml;chte, muss eine non-copyright Lizenz erwerben. Bitte nutzen Sie hierf&uuml;r das <a href="http://www.YellaBook.de/gaestebuch-php-script-kontakt.html">Bestellformular</a>. Beim Einsatz auf einer kommerziellen Website muss eine kommerzielle Lizenz erworben werden. Bitte nutzen Sie auch hierf&uuml;r das <a href="http://www.YellaBook.de/gaestebuch-php-script-kontakt.html">Bestellformular</a>. Sie haben vor dem Download diesen Bedingungen durch das Akzeptieren der Lizenzbestimmungen zugestimmt.</p>
+
+
+			</div>
+			</div>
+
+			<div class="box-bottom">
+
+<hr class="noscreen" />
+
+			<div class="footer-info-left"><a href="http://www.YellaBook.de">YellaBook</a>. All rights reserved.</div> 
+			<div class="footer-info-right"><a href="http://www.YellaBook.de/gaestebuch-php-script-impressum.html">Impressum</a> | <a href="http://www.YellaBook.de/gaestebuch-php-script-sitemap.html">Sitemap</a> | <a href="http://www.YellaBook.de/gaestebuch-php-script-wissenswertes.html">Wissenswertes</a> | <a href="http://www.YellaBook.de">YellaBook.de</a></div>
+			</div>
+		</div>
+
+	<div class="cleaner">&nbsp;</div>
+	</div>	
+</div>
+</body>
+</html>

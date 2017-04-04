@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<texts>
+	<!-- Texte für die Ausgabe auf der Website -->
+	<text name="page">Seite</text>
+	<text name="pages">Seiten</text>
+	<text name="got_to_page">Gehe zu Seite</text>
+	<text name="prev_page">vorherige Seite</text>
+	<text name="next_page">nächste Seite</text>
+	<text name="ok">ok</text>
+	<text name="entries">Einträge</text>
+	<text name="entry_nr">Eintrag Nr.</text>
+	<text name="title">yellabook.de</text>
+	<text name="guestbook">Gästebuch</text>
+	<text name="new_entry">Neuer Gästebuch-Eintrag</text>
+	<text name="no_entries">Es sind noch keine Einträge vorhanden.</text>
+	<text name="create_new_entry">Ins Gästebuch eintragen</text>
+	<text name="wrote_date">am</text>
+	<text name="wrote_time">um</text>
+	<text name="o_clock">Uhr</text>
+	<text name="from_city">aus</text>
+	<text name="from_person">von</text>
+	<text name="comment">Kommentar</text>
+	<text name="of">von</text>
+	<text name="on">auf</text>
+	<text name="back_to_guestbook">« zurück zum Gästebuch</text>
+	<text name="change">Ändern</text>
+	<text name="name">Name</text>
+	<text name="city">Ort</text>
+	<text name="email">E-Mail</text>
+	<text name="web">Website</text>
+	<text name="message">Nachricht</text>
+	<text name="dont_insert_text">Bitte nicht ausfüllen!</text>
+	<text name="required_fields">Pflichtfelder</text>
+	<text name="save">Speichern</text>
+	<text name="cancel">Abbrechen</text>
+	<text name="preview">Vorschau</text>
+	<text name="smiley_info">Um einen Smiley einzufügen, klicken Sie auf den gewünschten Smiley oder schreiben Sie die Zeichenfolge, welche beim Überfahren des Smileys angezeigt wird, an die gewünschte Stelle.</text>
+	<text name="max">max.</text>
+	<text name="characters">Zeichen</text>
+	<text name="free_characters">Zeichen verfügbar</text>
+	<text name="save_successful_with_adminmail">Ihr Eintrag wurde erfolgreich gespeichert. Der Eintrag erscheint, sobald der Administrator dieser Webseite den Eintrag freigeschaltet hat.</text>
+	<text name="save_successful">Ihr Eintrag wurde erfolgreich gespeichert.</text>
+	<text name="save_problem">Beim Speichern Ihres Eintrages ist ein Problem aufgetreten</text>
+	<text name="spamprotection">Spamschutz</text>
+	<text name="securequestion_info">Bitte beantworten Sie die nachfolgende Sicherheitsfrage.</text>
+	<text name="entryinpreview">Eintrag</text>
+	
+	<!-- Texte für die Ausgabe im Admin-Bereich -->
+	<text name="guestbook_email">gaestebuch</text>
+	<text name="adminarea">Admin-Bereich</text>
+	<text name="loginname">Benutzername</text>
+	<text name="password">Passwort</text>
+	<text name="login">Anmelden</text>
+	<text name="configuration">Einstellungen</text>
+	<text name="backup">Backup</text>
+	<text name="download_backup">Backup herunterladen</text>
+	<text name="logout">Logout</text>
+	<text name="adminemail">E-Mail</text>
+	<text name="send_new_entry_mail">E-Mail bei Neueintrag senden</text>
+	<text name="yes">ja</text>
+	<text name="no">nein</text>
+	<text name="language">Sprache</text>
+	<text name="entries_per_page">Einträge pro Seite</text>
+	<text name="enable_entries_before_display">Neue Einträge erst freigeben</text>
+	<text name="max_name_characters">Max. Zeichen für Name</text>
+	<text name="max_city_characters">Max. Zeichen für Stadt</text>
+	<text name="max_email_characters">Max. Zeichen für E-Mail</text>
+	<text name="max_web_characters">Max. Zeichen für Homepage</text>
+	<text name="max_message_characters">Max. Zeichen für Nachricht</text>
+	<text name="save_config_successful">Die Konfiguration wurde erfolgreich gespeichert.</text>
+	<text name="save_entry_successful">Der Eintrag wurde erfolgreich gespeichert.</text>
+	<text name="delete_entry_successful">Der Eintrag wurde erfolgreich gelöscht.</text>
+	<text name="entry_id">Eintrags-ID</text>
+	<text name="active">Eintrag anzeigen</text>
+	<text name="delete">Löschen</text>
+	<text name="edit">Bearbeiten</text>
+	<text name="edit_entry">Eintrag bearbeiten</text>
+	<text name="confirm_delete">Wollen Sie diesen Eintrag wirklich löschen?</text>
+	<text name="securequestions">Sicherheitsfragen (Spamschutz)</text>
+	<text name="notice">Hinweis</text>
+	<text name="notice_securequestions">Verwenden Sie nur eindeutige Fragen!</text>
+	<text name="question">Frage</text>
+	<text name="answer">Antwort</text>
+	<text name="save_securequestions_successful">Die Sicherheitsfragen wurden erfolgreich gespeichert.</text>
+	<text name="enable_securequestion">Sicherheitsfrage im Gästebuch</text>
+  <text name="edit_securequestion">Sicherheitsfragen bearbeiten</text>
+  <text name="to_guestbook">Zum Gästebuch</text>
+  <text name="entryinacp">Eintrag</text>
+	<!-- Fehlermeldungen -->
+	<text name="error_wrong_login">Login fehlerhaft</text>
+	<text name="error_cant_access_language_dir">Kein Zugriff auf den Sprach-Ordner "lang"</text>
+	<text name="error_cant_open_config_file">Die Konfigurationsdatei konnte nicht geöffnet werden.</text>
+	<text name="error_cant_save_temp_config_file">Die temporäre Konfigurationsdatei konnte nicht gespeichert werden.</text>
+	<text name="error_cant_create_config_temp_file">Die temporäre Konfigurationsdatei konnte nicht angelegt werden.</text>
+	<text name="error_cant_create_temp_file">Die temporäre Datendatei konnte nicht angelegt werden.</text>
+	<text name="error_cant_save_temp_file">Die temporäre Datendatei konnte nicht gespeichert werden.</text>
+	<text name="error_cant_save_file">Die Datendatei konnte nicht gespeichert werden.</text>
+	<text name="error_couldnt_send_adminmail">Die E-Mail an den Administrator konnte nicht gesendet werden.</text>
+	<text name="error_session_is_over">Ihre  Session ist abgelaufen.</text>
+	<text name="error_bot_warning">Es besteht Spam-Verdacht. Bitte warten Sie ein paar Sekunden, bevor Sie das Formular abschicken.</text>
+	<text name="error_bot_warning_hidden_field">Es besteht Spam-Verdacht. Bitte achten Sie darauf das Feld mit der Bezeichnung "Bitte nicht ausfüllen!" leer zu lassen!</text>
+	<text name="error_message_is_too_long">Der Text der Nachricht ist zu lang. Die maximale Zeichenanzahl beträgt </text>
+	<text name="error_no_message_given">Bitte geben Sie eine Nachricht ein!</text>
+	<text name="error_web_is_too_long">Der Text für die Website ist zu lang. Die maximale Zeichenanzahl beträgt </text>
+	<text name="error_email_is_too_long">Der Text für die E-Mail ist zu lang. Die maximale Zeichenanzahl beträgt </text>
+	<text name="error_no_valid_email">Ihre E-Mail-Adresse ist nicht korrekt.</text>
+	<text name="error_city_is_too_long">Der Text für den Ort ist zu lang. Die maximale Zeichenanzahl beträgt </text>
+	<text name="error_name_is_too_long">Der Text für den Name ist zu lang. Die maximale Zeichenanzahl beträgt </text>
+	<text name="error_no_name_given">Bitte geben Sie Ihren Namen an!</text>
+	<text name="error_no_entry_to_delete">Der zu löschende Eintrag wurde nicht gefunden.</text>
+	<text name="error_cant_open_securequestions_file">Die Datei für die Sicherheitsfragen konnte nicht geöffnet werden.</text>
+	<text name="error_cant_create_securequestions_temp_file">Die temporäre Datei für die Sicherheitsfragen konnte nicht angelegt werden.</text>
+	<text name="error_cant_save_temp_securequestions_file">Die temporäre Datei für die Sicherheitsfragen konnte nicht gespeichert werden.</text>
+	<text name="error_wrong_securequestion_answer">Die Antwort auf die Sicherheitsfrage ist falsch.</text>
+	
+	<text name="copyright"><a href="http://www.yellabook.de" style="text-decoration: none;">yellabook.de - Alle Rechte vorbehalten.</a></text>
+<text name="guestbook_copyright"><strong><a href="http://www.yellabook.de" style="text-decoration: none;" title="G&auml;stebuch">G&auml;stebuch</a></strong></text>
+<text name="advertising">Werbeanzeige</text>
+<text name="contactform"><a href="http://www.kontaktformular.com" style="text-decoration: none;" title="Kontaktformular">Kontaktformular</a></text>
+</texts>

@@ -1,0 +1,618 @@
+/******************** style for admin-area ***************/
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial, helvetica;
+	font-size: 12px;
+	line-height: 140%;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+}
+
+.loginform{
+	margin: 200px auto;
+	max-width: 300px;
+	background: #DEF1FE;
+	padding: 30px;
+	border: 1px solid #DBDADA;
+}
+	.loginform td{
+		padding: 3px 5px;
+	}
+
+.error{
+	padding: 5px 10px;
+	background: #fee;
+	color: #f00;
+	border: 1px solid #f00;
+	max-width: 400px;
+}
+.message{
+	padding: 5px 10px;
+	background: #efe;
+	color: #090;
+	border: 1px solid #090;
+	max-width: 400px;
+}
+
+.clear{
+	clear: both;
+}
+
+.maintable{
+	height: 100%;
+	width: 100%;
+}
+
+.header{
+	background: #A8DCFF;
+	color: #000;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 10px 20px;
+	height: 20px;
+}
+	.header div{
+		display: none;
+	}
+
+.navi, .content{
+	padding: 20px;
+}
+
+.navi{
+	background: #DEF1FE;
+	width: 120px;
+	border-right: 1px solid #DBDADA;
+}
+	.navi ul{
+		list-style: none;
+	}
+		.navi li{
+			margin-bottom: 5px;
+		}
+			.navi a{
+				color: #000;
+				text-decoration: none;
+				font-weight: bold;
+				font-size: 14px;
+			}
+			.navi li.active a{
+				color: #30ACFF;
+			}
+.content h1{
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.content form table{
+	margin-bottom: 40px;
+	width: auto;
+}
+		
+input{
+	width: 100%;
+	height: 23px;
+	border: 1px solid #AABAC4;
+	padding: 0px 3px;
+	color: #555;
+	box-sizing: border-box;
+}
+input.button{
+	background: #A8DCFF;
+	color: #000;
+	cursor: pointer;
+	height: 28px;
+}
+input.checkbox{
+	width: 15px;
+	height: 15px;
+	border: none;
+}
+
+.content input[type="text"]{
+	min-width: 200px;
+}
+
+.content input.button{
+	width: 206px;
+}
+.content label{
+	display: block;
+}
+
+a{
+	color: #000;
+}
+p{
+	margin-bottom: 15px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+	table tr td{
+		vertical-align: top;
+		padding: 3px 15px 3px 0px;
+	}
+	form table tr td:last-child{
+		padding-right: 5px;
+	}
+	
+	
+.gb_pagebrowser{
+	margin-top: 30px;
+}
+	.gb_pagebrowser p{
+		margin-bottom: 0px;
+	}
+	.gb_pagebrowser_left{
+		float: left;
+	}
+		.gb_pagebrowser_entry_qty{
+			display: inline-block;
+			border-right: solid 1px #000;
+			padding-right: 5px;
+		}
+		.gb_pagebrowser_page_form{
+			display: inline-block;
+			padding-left: 3px;
+		}
+		.content input.gb_pagebrowser_input{
+			width: 25px;
+			border: #333 1px solid;
+			padding: 2px 3px;
+			height: 16px;
+			min-width: auto;
+		}
+		.gb_pagebrowser_submit{
+			background: none;
+			border: none;
+			cursor: pointer;
+			font-weight: bold;
+			width: auto;
+			color: #000;
+		}
+	.gb_pagebrowser_right{
+		margin-top: 5px;
+		float: right;
+	}
+		.gb_pagebrowser_prev a,
+		.gb_pagebrowser_next a{
+			font-weight: bold;
+		}
+
+
+				
+.gb_entry{
+	margin: 50px 0px 50px 0px;
+	padding-bottom: 6px;
+	background: url(../images/shadow.png) repeat-x bottom;
+}
+	.gb_entry_body{
+		border: 1px solid #DBDADA;
+		padding-bottom: 15px;
+	}	
+	.gb_inactive .gb_entry_body{
+		background: #eee;
+		color: #555;
+	}
+				
+		.gb_entry_header{
+			background: #DEF1FE;
+			border-bottom: 1px solid #DBDADA;
+			padding: 3px 10px;
+			font-size: 13px;
+		}
+		.gb_inactive .gb_entry_header{
+			background: #ddd;
+		}
+			.gb_entry_header strong{
+				font-weight: bold;
+			}
+			.gb_entry_header_left{
+				float: left;
+			}
+				.gb_entry_header_left div{
+					display: inline;
+				}
+			.gb_entry_header_right{
+				float: right
+			}
+				.gb_entry_email,
+				.gb_entry_web{
+					display: block;
+					float: left;
+					width: 15px;
+					margin-left: 10px;
+					text-decoration: none;
+				}
+				.gb_entry_email{
+					background: url(../images/email.png) no-repeat;
+					height: 11px;
+					margin-top: 2px;
+				}				
+				.gb_entry_web{
+					background: url(../images/web.png) no-repeat;
+					height: 15px;
+				}
+		.gb_form_body{
+			padding: 10px;
+		}
+		.gb_entry_text{
+			padding: 10px 10px 0px 10px;
+		}
+			.gb_entry_text p{
+				padding-bottom: 15px;
+				border-bottom: 1px solid #DBDADA;
+			}
+
+		.gb_form_row,
+		.gb_form_message{
+			margin: 3px 0px;
+			clear: both;
+		}
+			.gb_form_row label{
+				width: 80px;
+				font-weight: bold;
+				display: block;
+				float: left;
+			}			
+				.gb_form_row label span,
+				.gb_form_message label span{
+					font-weight: normal;
+					font-size: 10px;
+					padding-left: 5px;
+				}
+				.gb_form .gb_form_message input{
+					width: 30px;
+				}
+				
+		.gb_form input, 
+		.gb_form textarea{
+			padding: 3px;
+			border: 1px solid #bfbfcc;
+		}
+		.gb_form input{
+			height: 15px;
+			width: 300px;
+		}
+		.gb_entry_body input{
+			box-sizing: content-box;
+		}
+		.gb_form_message{
+			margin-top: 30px;
+			margin-bottom: 15px;
+			border-bottom: 1px solid #DBDADA;
+			padding-bottom: 15px;
+		}
+			.gb_form_message label{
+				font-weight: bold;
+			}
+			.gb_form_message p{
+				margin-bottom: 6px;
+				font-size: 11px;
+			}
+			.gb_form_message textarea{
+				width: 98%;
+				height: 80px;
+			}
+			.gb_form_smileys div{
+				float: left;
+				cursor: pointer;
+				padding: 5px 0px;
+			}
+
+		.gb_form_body .gb_entry_comment{
+			margin: 0px;
+		}
+		.gb_entry_comment{
+			margin: 0px 10px 15px 10px;
+			border: 1px solid #E6EDF2;
+			/*background: #F3F9FD;*/
+			background: #E8F5FF;
+		}
+			.gb_entry_comment p{
+				padding: 7px 10px;
+				margin-bottom: 0px;
+			}
+			.gb_entry_comment .gb_entry_comment_header{
+				border-bottom: 1px solid #E6EDF2;
+				padding: 3px 10px;
+				margin-bottom: 0px;
+			}
+				.gb_entry_comment_header strong{
+					font-weight: bold;
+				}
+			.gb_entry_comment_body{
+				padding: 7px 10px;
+				margin-bottom: 0px;
+			}
+				.gb_form_smiley_info{
+					margin-bottom: 6px;
+					font-size: 11px;
+					color: #888;
+				}
+				.gb_entry_comment textarea{
+					width: 98%;
+					height: 80px;
+					padding: 3px;
+					border: 1px solid #bfbfcc;
+					margin-top: 5px;
+				}
+				.gb_form_smileys div{
+					float: left;
+					cursor: pointer;
+					padding: 5px 0px;
+				}
+
+		.gb_form_buttons{
+			margin: 0px 10px 0px 10px;
+		}
+			.gb_form_buttons p{
+				margin-bottom: 0px;
+			}
+			.gb_form_activation{
+				float: left;
+			}
+				.gb_form_activation input{
+					width: 15px;
+					height: 10px;
+					border: none;
+				}
+			.gb_form_submit {
+				float: right;
+			}
+				.gb_form_submit input{
+					background: #A8DCFF;
+					color: #000;
+					cursor: pointer;
+					height: 20px;
+					width: 120px;
+					font-size: 12px;
+					border: solid 1px #85ABC4;
+					padding: 0px 0px 3px 0px;
+					margin: 0px 2px;
+					box-sizing: border-box;
+				}		
+				
+		
+
+				
+				
+.securequestionform{
+	margin-top: 40px;
+}	
+	.content form.securequestionform table{
+		width: 100%;
+		max-width: 550px;
+	}	
+		.securequestionform tr th{
+			padding: 6px;
+			text-align: left;
+			background: #E8F5FF;
+		}
+		.securequestionform tr td{
+			padding: 12px 6px;
+			white-space: nowrap;
+		}
+			.securequestionform tr table{
+				margin-bottom: 0px;
+			}
+				.securequestionform tr tr td{
+					padding: 0px 10px 4px 0px;
+				}
+					.securequestionform tr tr td input{
+						max-width: 350px;
+						min-width: 200px;
+						width: 100%;
+					}
+			.securequestion_answer_text{
+				display: none;
+			}
+			.securequestion_answer{
+				margin-bottom: 10px;
+			}
+				.securequestion_answer input,
+				.content .securequestion_answer input{
+					width: 60px;
+					min-width: auto;
+				}
+			.securequestion_delete{
+				margin-bottom: 0px;
+			}
+			
+			
+@media screen and (max-width: 800px) {
+	.gb_pagebrowser_left,
+	.gb_pagebrowser_right{
+		float: none;
+	}
+	
+	.gb_form_activation{
+		float: none;
+	}
+		.gb_form_buttons p.gb_form_activation{
+			margin-bottom: 10px;
+		}
+		
+	.gb_form_submit {
+		float: left;
+		width: 31%;
+		margin-right: 2%;
+	}		
+	.gb_form_buttons form .gb_form_submit{
+		margin-right: 0px;
+	}
+		.gb_form_submit input{
+			width: 100%;
+		}	
+			.gb_entry_header_left div{
+				display: block;
+			}
+}
+
+
+@media screen and (max-width: 600px) {
+	.maintable{
+		height: auto;
+	}
+	.header{
+		position: fixed;
+		width: 100%;
+		box-sizing: border-box;
+		height: 50px;
+	}
+		.header div{
+			display: block;
+			background: url(../images/mobile-nav.png) no-repeat;
+			width: 28px;
+			height: 22px;
+			cursor: pointer;
+			position: absolute; right: 20px;
+			top: 15px;
+		}
+	
+	.navi, .navi.hide_navi{
+		position: fixed;
+		display: none;
+		left: 0px;
+		top: 50px;
+		width: 100%;
+		padding: 0px;
+	}
+	.navi.display_navi{
+		display: block;
+	}
+		.navi ul{
+			margin: 20px 0px;
+		}
+			.navi li{
+				margin: 0px;
+			}
+				.navi a{
+					display: block;
+					font-size: 16px;
+					padding: 6px 20px;
+					text-align: center;
+				}
+	.content{
+		padding-top: 70px;
+		vertical-align: top;
+	}
+		.content form.securequestionform table,
+		.content form table{
+			width: 100%;
+			max-width: auto;
+		}
+			.content form td{
+				display: block;
+				width: 100%;
+				padding: 0px 0px 20px 0px;
+			}
+			
+			.content form td:first-child{
+				padding: 0px 0px 2px 0px;
+			}
+				.content input, .content input.button{
+					padding: 6px !important;
+					height: 31px;
+					max-width: 100%;
+				}
+				.content input[type="text"], .content input.button{
+					width: 100%;
+					max-width: 100%;
+				}
+				.content input[type="checkbox"], .content input.checkbox{
+					margin: 5px 2px 0px 0px;
+					height: auto;
+				}
+				.content label{
+					display: inline-block;
+					width: 48%;
+				}
+			
+	.securequestionform{
+		margin-top: 30px;
+	}
+		.securequestionform > table > tbody > tr:first-child{
+			display: none;
+		}
+		
+			.content form.securequestionform > table > tbody > tr > td:last-child{
+				padding: 0px 0px 20px 0px;
+			}
+			.content form.securequestionform > table > tbody > tr > td:first-child{
+				padding: 20px 0px 0px 0px;
+				border-top: 5px solid #A8DCFF;
+			}
+				.securequestion_answer_text{
+					display: block;
+				}
+				.securequestionform tr tr td input{
+					max-width: auto;
+					min-width: auto;
+					width: 100%;
+				}
+				
+	.content input.gb_pagebrowser_input{
+		width: 30px !important;
+		min-width: 30px;
+		box-sizing: border-box;
+		height: 20px;
+		padding: 2px !important;
+	}
+	.gb_entry_body input {
+		box-sizing: border-box;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.loginform {
+		margin: 20px 10px;
+		padding: 15px;
+	}
+		.loginform td{
+			display: block;
+			width: 100%;
+			padding: 0px 0px 10px 0px;
+		}
+		.loginform td:first-child{
+			padding: 0px 0px 2px 0px;
+		}
+			.loginform input, .loginform input.button{
+				padding: 6px !important;
+				height: 35px;
+				max-width: 100%;
+			}
+	
+	.gb_pagebrowser_entry_qty{
+		display: block;
+		border-right: none;
+		padding-right: 0px;
+	}
+	.gb_pagebrowser_page_form{
+		display: block;
+		padding-left: 0px;
+	}
+	.gb_pagebrowser_pages{
+		display: block;
+	}
+	
+	.content input[type="text"]{
+		min-width: auto;
+	}
+	
+	.header{
+		font-size: 20px;
+		line-height: 150%;
+	}
+}
+

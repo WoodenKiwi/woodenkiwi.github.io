@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	color:#000000;
+}
+body{
+	background-color: #c1c1c1;
+	padding: 10px 0px;
+}
+
+.kontaktformular  {
+	width:  100%;
+	max-width: 500px;
+	font-size:12px;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+}
+
+
+a:link, a:visited, a:active{color:#000000;text-decoration:none;}
+a:hover{text-decoration: underline;}
+
+
+.kontaktformular .row{
+	padding: 0px 10px;
+}
+	.kontaktformular label{
+		display: inline-block;
+		width: 30%;
+		vertical-align: top;
+		padding: 4px;
+		text-align: center;
+		background: #eef3f5;
+	}
+	.kontaktformular label.nobg{
+		background: none;
+	}
+	.kontaktformular .nachrichtrow label{
+		height: 141px;
+	}
+	.kontaktformular .pflichtfeld{
+		text-align: center;
+		width: 5%;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.kontaktformular .pflichtfeldhinweis .pflichtfeld{
+		width: auto;
+		display: inline;
+	}
+	.kontaktformular .field{
+		display: inline-block;
+		width: 63%;
+	}
+			  
+	.kontaktformular input, .kontaktformular textarea, .kontaktformular select {
+		width:100%;
+		padding: 1px 3px 2px 3px;
+		margin: 2px 0;
+	}
+	
+	.kontaktformular select {
+		width:50%;
+	}
+	.kontaktformular textarea{
+		height: 140px;
+	}
+
+.kontaktformular .errormsg{
+	text-align: center;
+	display: block;
+}
+.kontaktformular .errormsg,
+.kontaktformular .errormsg *{
+	color: #cc3333;
+	padding-bottom: 3px;
+}
+input.errordesignfields, textarea.errordesignfields, select.errordesignfields { }
+
+.kontaktformular .Sicherheitscode{
+	text-align: center;
+}
+.captchareload { padding-left:10px;}
+
+#checkid {
+  width: auto;
+}
+#checkid2 {
+  width: auto;
+}
+
+.pflichtfeld {
+	 color: #ff0000;
+}
+.neuercode {
+	 color: #0066FF;
+}
+.copyright {
+	 color: #000000;
+}
+
+	 
+.kontaktformular .pflichtfeldhinweis{
+	font-size:12px
+}
+
+.buttons{
+	text-align: center;
+	margin-top: 10px;
+}
+	.buttons input { 
+		width: 40%;
+		margin-top: 7px;
+		margin-bottom: 20px;
+	}
+
+.zurueck {
+	color: #6891D1;
+}
+
+.kontaktformular .copyright{
+	font-size:10px; 
+	text-align:center;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 390px) {
+	.kontaktformular .row{
+		padding: 0px 10px 5px 10px;
+	}
+		.kontaktformular label{
+			width: 95%;
+		}
+		.kontaktformular .nachrichtrow label{
+			height: auto;
+		}
+		.kontaktformular .pflichtfeld{
+			width: 5%;
+		}
+		.kontaktformular .field{
+			display: block;
+			width: 100%;
+		}
+		.kontaktformular input, .kontaktformular textarea, .kontaktformular select {
+			padding: 6px;
+		}
+}
+

@@ -1,0 +1,88 @@
+
+<script type="text/javascript" src="guestbook/javascript.js"></script> 
+
+<div class="container banner">
+    <img class="banner-image" src="../../../images/Online/Banner_5-german-1.jpg" alt="Banner" width="2557" height="465">
+</div>
+
+<style>
+    /* This element will == the height of the image */
+    .banner {
+        position: relative;
+    }
+
+    /* This element is the background image */
+    .banner-image {
+        width: 100%;
+        height: auto;
+        position: static;
+        padding-bottom: 20px;
+    }
+</style>
+
+<h1>###create_new_entry###</h1>
+
+<form action="###FORM_ACTION###" method="post" class="gb_form" accept-charset="UTF-8">	
+	###ERRORS###
+	<h3><a href="../../../index_german.html">&raquo; Zurück zur Hauptseite</a></h3>
+	<p></p>
+	<p style="color: red;"><strong>ACHTUNG:</strong> Wenn du deine eMail-Adresse angibst, können andere Besucher diese sehen um dich ggf. zu kontaktieren!</p>
+	<p class="gb_form_required">* ###required_fields###</p>
+
+	<div class="gb_form_box">
+		<input type="hidden" name="sessid" value="###SID###" />
+		<input type="hidden" name="time" value="###TIME###" />
+		<input type="hidden" name="max_message_characters" value="###MAX_MESSAGE_CHARACTERS###" />
+		<input type="hidden" name="gb_action" value="check" />
+
+		<div class="gb_form_header">
+			###create_new_entry###
+		</div>
+
+		<div class="gb_form_body">
+			<div class="gb_hidden_row">
+				<label>###dont_insert_text### *</label>
+				<input type="text" name="first_name" value="" />
+			</div>				
+			<div class="gb_form_row">
+				<label>###name### * <span>(###max### ###MAX_NAME_CHARACTERS### ###characters###)</span></label>
+				<input type="text" name="name" value="###NAME###" maxlength="###MAX_NAME_CHARACTERS###" />
+			</div>	
+			<div class="gb_form_row">
+				<label>###city### <span>(###max### ###MAX_CITY_CHARACTERS### ###characters###)</span></label>
+				<input type="text" name="city" value="###CITY###" maxlength="###MAX_CITY_CHARACTERS###" />
+			</div>	
+			<div class="gb_form_row">
+				<label>###email### <span>(###max### ###MAX_EMAIL_CHARACTERS### ###characters###)</span></label>
+				<input type="text" name="email" value="###EMAIL###" maxlength="###MAX_EMAIL_CHARACTERS###" />
+			</div>	
+			
+			
+			<div class="gb_form_message">
+				<label>###message### * <span>(###max### ###MAX_MESSAGE_CHARACTERS### ###characters###)</span></label>
+				<p>###smiley_info###</p>
+				<div class="gb_form_smileys">###SMILEYS###</div>
+				<textarea rows="20" cols="50" onkeyup="update_textlength()" onblur="update_textlength()" name="message" id="gb_form_messagebox">###MESSAGE###</textarea>
+				<input type="text" name="rest_characters" readonly="readonly" disabled="disabled" value="" /> &nbsp;###free_characters###
+				<script type="text/javascript">update_textlength();</script>
+			</div>
+			
+			###SECUREQUESTION###
+		</div>
+	</div>
+
+	<div class="gb_form_buttons">
+		<p class="gb_form_submit">
+			<input type="submit" value="###preview###" />
+		</p>		
+		<p class="gb_form_submit">
+			<input type="submit" name="save_without_preview" value="###save###" />
+		</p>
+		<p class="gb_form_button">
+			<a href="###BACK_LINK###">
+				<input onclick="document.location.href='###BACK_LINK###';" type="button" value="###cancel###" />
+			</a>
+		</p>
+	</div>
+</form>
+

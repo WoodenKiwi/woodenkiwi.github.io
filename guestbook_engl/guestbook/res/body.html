@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="robots" content="noindex, nofollow" />
+		<meta http-equiv="cache-control" content="no-cache" />
+		<meta http-equiv="pragma" content="no-cache" />
+		<title>###adminarea###</title>
+		<link href="res/style.css" rel="stylesheet" type="text/css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	</head>
+	<body>
+		<table class="maintable">
+			<tr>
+				<td colspan="2" class="header">
+					###adminarea###
+					<div onclick="toggleNav()"></div>
+				</td>
+			</tr>
+			<tr>
+				<td class="navi" id="navi">
+					<ul>
+						<li ###CONFIGMENU###><a href="admin.php?action=get_config">###configuration###</a></li>
+						<li ###ENTRIESMENU###><a href="admin.php?action=get_entries">###entries###</a></li>
+						<li ###BACKMENU###><a href="admin.php?action=get_backup">###backup###</a></li>
+						<li><a href="admin.php?action=logout">###logout###</a></li>
+						<li><br /></li>
+						<li><br /></li>
+						<li><a href="../guestbook.php">###to_guestbook###</a></li>
+					</ul>
+				</td>
+				<td class="content" onclick="hideNav()">
+					###CONTENT###
+				</td>
+			</tr>
+		</table>
+		<script type="text/javascript">
+			function toggleNav(){
+				var navi = document.getElementById('navi');
+				if('navi hide_navi'==navi.getAttribute("class") || 'navi'==navi.getAttribute("class")){
+					navi.setAttribute("class", "navi display_navi");
+				}
+				else{
+					navi.setAttribute("class", "navi hide_navi");
+				}
+			}			
+			
+			function hideNav(){
+				navi.setAttribute("class", "navi hide_navi");
+			}
+		</script>
+	</body>
+</html>

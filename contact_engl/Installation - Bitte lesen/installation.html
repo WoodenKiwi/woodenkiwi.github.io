@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<meta name="google-site-verification" content="jFBLmn6iZHr6cayHclnahjEKsnvQR9pBdURo-UnfDmk" />
+		<title>Kontaktformular Homepage | Installation des PHP Formular Script</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection, tv" />
+    <link rel="stylesheet" href="css/style-print.css" type="text/css" media="print" />
+		
+
+    <meta http-equiv="pragma" content="no-cache" />
+		<meta http-equiv="content-language" content="de" />
+		
+		<meta name="description" content="Die Installation des PHP Kontaktformular Script mit Spamschutz ist einfach und schnell auf Ihrer Homepage zu bewerkstelligen. Kostenloser Support!" />
+
+		<meta name="keywords" content="Kontaktformular, kostenlos, Mailformular, Kontakt, kostenloses, Formular, Formular Script, Script, PHP Formular Script, PHP Script, Homepage, Website, PHP, Spamschutz, Captcha, Antispam" />
+		<meta name="robots" content="index,follow" />
+		<link rel="shortcut icon" href="http://www.kontaktformular.com/favicon.ico" />
+		
+	</head>
+
+
+<body>
+<div id="wrapper">
+
+		<!-- Header -->
+		<div id="header">
+
+			
+			<h1><a href="http://www.kontaktformular.com" title="Kostenlos und mit Spamschutz">Kontaktformular.com</a></h1>
+			
+		
+			
+			<h2>Weniger ist oft mehr.</h2>
+			
+
+			<div id="header-arrow"></div>
+		</div>
+		<!-- Header end -->
+
+
+
+<hr class="noscreen" />
+
+	<div id="content-box">
+		<div id="content-box-in">
+
+			<a name="skip-menu"></a>
+			<!-- Content left -->
+			<div class="content-box-left">
+				<div class="content-box-left-in">
+					<h3>Installation - PHP Kontakt Formular Script</h3>
+					<p><b>Text Anleitung</b></p></div>
+   <div class="content-box-left-install">
+   <ol><li><p> kontaktformular.zip unter <a href="http://www.kontaktformular.com/download-script-php-kontakt-formular.html">Download</a> herunterladen. </p></li>
+
+   <li><p>Dateien aus kontaktformular.zip mit Winrar oder Winzip in einen Ordner auf Ihrer Festplatte entpacken. </p></li>
+   <li><p>Datei "config.php" mit einem Editor (z.B. <a href="http://www.chip.de/downloads/Notepad2-32-Bit_13013323.html">Notepad2</a>) &ouml;ffnen.</p></li>
+   <li><p>In Zeile 2 Ihre E-Mail Adresse und in Zeile 3 Ihren (Firmen)Namen zwischen den Anf&uuml;hrungszeichen eintragen. Die genaue Position wird auch nochmal in der Datei kommentiert.</p></li>
+   <li><p>Datei config.php abspeichern.</p></li>
+
+   <li><p>M&ouml;chten Sie eine Uploadm&ouml;glichkeit f&uuml;r den Besucher im Formular erzeugen, so &ouml;ffnen Sie nun die Datei upload.php mit einem Editor. <b>Ansonsten &uuml;berspringen Sie diesen Schritt einfach.</b></p>
+   <p>Anhand der Kommentierungen k&ouml;nnen Sie nun die Einstellungen f&uuml;r das Uploadfeld konfigurieren. Sie haben unter anderem die Option zwischen dem Versenden der Dateien an Ihre E-Mail Adresse (als Attachment), oder aber &uuml;ber einen Upload in ein Verzeichnis auf Ihrem Server. N&auml;here Informationen zu allen Einstellungsm&ouml;glichkeiten finden Sie bereits ausf&uuml;hrlich vorkommentiert in der upload.php.</p></li>
+   
+   <li><p><span style="text-decoration: underline;">Alle</span> Dateien (einschlie&szlig;lich upload.php) auf Ihren Server/Webspace laden.</p></li>
+
+          <li><p>Datei test.php im Browser &ouml;ffnen, Ihre E-Mail Adresse eintragen und auf Senden klicken. Nun wird &uuml;berpr&uuml;ft, ob die PHP Mailfunktion auf Ihrem Server installiert ist. Innerhalb weniger Sekunden erhalten Sie eine Testmail. Die Datei test.php sollte nun aus Sicherheitsgr&uuml;nden gel&ouml;scht werden.</p></li>
+    
+   <li><p>Datei kontakt.php in Ihrem Browser &ouml;ffnen. <b>Das Kontaktformular ist nun einsatzbereit!</b> (Sollte kein Sicherheitscode angezeigt werden, klicken Sie bitte <a href="http://www.kontaktformular.com/installation-script-php-kontakt-formular.html#sicherheitscode-wird-nicht-angezeigt">hier</a>.)<br /><br /><span style="color: red; font-weight: bold;">Antworten auf h&auml;ufig gestellte Fragen sowie zu etwaigen Fehlermeldungen, finden Sie unter <a href="http://www.kontaktformular.com/faq-script-php-kontakt-formular.html">FAQ</a>.</span> <br /><br />Hosteurope.de Kunden klicken bitte <a href="http://www.kontaktformular.com/webhoster-hosteurope.html">hier</a>.</p> </li></ol>
+
+</div><br />
+				<hr style="margin: 5px 20px 5px 20px;" />
+				<br />
+				
+		<div class="content-box-left-in"><p><b>Integrierung in eine bestehende Seite</b></p></div>
+   <div class="content-box-left-install"><p> Es gibt 2 M&ouml;glichkeiten das Kontaktformular in Ihre Seite einzuf&uuml;gen. Entweder per IFrame (sehr einfach!) oder mit dem PHP Include Befehl. Die einfachste Methode ist hier die Einbindung per I-Frame. <br /><br />
+   
+ <b>Methode I - Integrierung per IFrame</b></p>
+   
+   <ol><li><p> Bitte f&uuml;gen Sie folgenden HTML Code an die gew&uuml;nschte Stelle in Ihrer Seite ein:<br />
+
+   <b>&lt;iframe src="kontakt.php" frameborder="0" width="550" height="700">&lt;/iframe></b><br />Bitte vergewissern Sie sich, dass der Pfad zu der Datei kontakt.php korrekt ist. Sollte sich die Datei also in einem Verzeichnis befinden (z.B. kontaktformular), &auml;ndern Sie den Pfad in: "kontaktformular/kontakt.php".</p></li>
+ 
+ <li><p> Die Breite und die H&ouml;he des IFrame lassen sich &uuml;ber die Attribute <b>width</b> und <b>height</b> definieren.</p></li>
+
+  <li><p> <b>Wichtiger Hinweis:</b> Wenn Sie das Kontaktformular responsive einbinden möchten, muss die Angabe width immer 100% betragen. Also:<br /> <b>&lt;iframe src="kontakt.php" frameborder="0" width="100%" height="700">&lt;/iframe></b> <br />Die Höhe können Sie weiterhin selbst definieren. Alternativ kann eine automatische Höhen-Anpassung über dieses <a href="http://www.knothemedia.de/iframe-responsive-gestalten.html">responsive iFrame</a> realisiert werden.</p></li>
+  
+   <li><p> Fertig! <br /><br />
+   
+<b>Methode II - Integrierung per PHP Include</b></p> </li></ol>
+ 
+  <ol> <li><p> Um das Kontaktformular per PHP Include Befehl in eine bestehende Seite einzuf&uuml;gen, ist es notwendig, dass die entsprechende Datei die Dateiendung <b>.php</b> hat. </p></li>
+   
+   <li><p> <b>Beispiel:</b> Sie m&ouml;chten das Kontaktformular (kontakt.php) in Ihr Impressum (impressum.html) integrieren. Bevor sie diesen Prozess starten k&ouml;nnen, m&uuml;ssen Sie die Datei <b>impressum.html</b> in <b>impressum.php</b> umbenennen.</p></li>
+
+   
+   <li><p> Nun &ouml;ffnen Sie die Datei <b>impressum.php</b> mit einem Editor und f&uuml;gen gleich an die erste Stelle der Datei (Zeile 1) den folgenden PHP Code ein: <b>&lt;?php session_start() ?></b> </p></li>
+   
+   
+      <li><p> F&uuml;gen Sie nun den folgenden Code an die gew&uuml;nschte Stelle in der Datei impressum.php ein, um das Kontaktformular zu integrieren: <b>&lt;?php include("kontakt.php"); ?></b>. 
+      
+      <br /><br />Wichtig: Alle Dateien (kontakt.php, config.php, danke.php, upload.php, style-kontaktformular.css) sowie der Ordner captcha sollten sich im selben Verzeichnis wie die Datei impressum.php befinden. Es ist nicht zu empfehlen das Kontaktformular Script in einen Ordner (z.B. kontaktformular) zu installieren, da dies zu Fehlern f&uuml;hren kann! <br />Fertig! Das Integrieren des Kontaktformulars ist nun abgeschlossen. </p></li>
+
+      
+       <li><p>Sollten Sie sich dennoch daf&uuml;r entschieden haben, das Formular in einen Ordner zu installieren, so m&uuml;ssen Sie den Code entsprechend &auml;ndern. Sofern der Ordnername <b>kontaktformular</b> lautet, muss der Code folgenderma&szlig;en aussehen: <b>&lt;?php include("kontaktformular/kontakt.php"); ?></b></p>  
+      
+   
+   
+        <p> Zudem ist es auch erforderlich den Pfad zur Datei captcha.php zu &auml;ndern, sofern das Formular, wie in unserem Beispiel im Ordner <b>"kontaktformular"</b> hinterlegt ist. <br />&Ouml;ffnen Sie die Datei <b>kontakt.php</b> mit einem Editor und scrollen bis zur Zeile 466, 467 und 468. &Auml;ndern Sie hier bitte jeweils die Pfadangaben in Zeile 466 und 467 zur <b>captcha.php</b>. Die Pfadangaben sind in Anf&uuml;hrungszeichen markiert. In unserem Beispiel (Ordnername <b>kontaktformular</b>), m&uuml;ssen die Pfade zur captcha.php also wie folgt umbenannt werden: <b>"kontaktformular/captcha/captcha.php"</b>. <br />In Zeile 468 &auml;ndern Sie den Pfad zur Datei <b>icon-kf.gif</b> in <b>"kontaktformular/icon-kf.gif"</b>.</p>
+
+        
+        <p> Des Weiteren sollte die Datei <b>danke.php</b> nun in das Verzeichnis kopiert werden, welches auch die Datei <b>impressum.php</b> beinhaltet. Alternativ kann nat&uuml;rlich auch eine neue Danke-Seite erstellt werden.</p></li>
+        
+        
+   <li><p> Der Pfad zur Datei <b>style-kontaktformular.css</b> muss ebenfalls entsprechend ge&auml;ndert werden. (Zeile 393)</p></li>
+   
+   <li><p> Das Kontaktformular sollte nun auf der Seite impressum.php funktionieren!</p></li>
+      
+      <li><p> Sie m&ouml;chten, dass die Datei impressum.php wieder als "impressum.html" im Browser dargestellt wird, so erstellen Sie eine Datei mit dem Namen <b>.htaccess</b>. Diese Datei muss im selben Ordner hinterlegt sein, wie die Datei impressum.php. <br /><br />F&uuml;gen Sie nun folgenden Inhalt in die Datei <b>.htaccess</b> ein: <br /><br /><b>RewriteEngine on<br />
+
+RewriteRule impressum.html$ /impressum.php</b><br /><br />
+
+Nun k&ouml;nnen Sie im Browser die Datei impressum.php als <b>impressum.html</b> aufrufen. ;-)</p>
+      
+      
+       <p><b>VIDEO Installationsanleitung - Wie integriere ich das Kontaktformular in eine bestehende Website? </b></p> 
+      
+      <p><object type="application/x-shockwave-flash" style="width:425px; height:344px;" data="http://www.youtube.com/v/agnGbsGLZJ4">
+<param name="movie" value="http://www.youtube.com/v/agnGbsGLZJ4" />
+</object></p><br /> Bitte doppelt anklicken, um auf YouTube zu gelangen und das Video im Vollbildmodus anzusehen. Das Video wurde mit der Bildschirmaufl&ouml;sung 1280x800 Pixel erstellt.</li>	</ol></div>
+		
+				
+				
+				<div class="content-box-left-in"><h3>etwaige Fehlermeldungen</h3>
+<p style="color:red;" id="sicherheitscode-wird-nicht-angezeigt"><b>Der Sicherheitscode wird nicht angezeigt?!</b></p></div>
+
+  <div class="content-box-left-install"><ol> <li><p>Sollte nach der Installation kein Sicherheitscode angezeigt werden, &ouml;ffnen Sie bitte die Datei <b>document_root.php</b> im Ordner <b>captcha</b> in Ihrem Browser. Sie sehen nun den absoluten Serverpfad. </p></li>
+
+   <li><p>In meinem Beispiel lautet dieser: <b>/home/www/ </b></p></li>
+   <li><p>Markieren Sie nun den absoluten Serverpfad und kopieren Sie diesen in den Zwischenspeicher. (rechte Maustaste - Kopieren)</p></li>
+			 <li><p>&Ouml;ffnen Sie die Datei <b>captcha.php</b> (im Ordner <b>captcha</b>) mit einem Editor und scrollen Sie in Zeile 64. ($ttf = "/Imperator.ttf";)</p></li>		
+			 <li><p><b>Wichtig:</b> F&uuml;gen Sie nun den absoluten Serverpfad aus dem Zwischenspeicher vor <b>/Imperator.ttf</b> ein. (rechte Maustaste - Einf&uuml;gen)</p></li>	
+			  <li><p>In meinem Beispiel also: <b>$ttf = "/home/www/Imperator.ttf";</b> </p></li>
+
+			   <li><p>Da die Schriftart aber nicht im root Verzeichnis (Hauptverzeichnis) Ihres Servers liegt, m&uuml;ssen Sie den Pfad erg&auml;nzen.</p>
+			   <p>Liegt das Kontaktformular Script also zum Beispiel im Ordner kontaktformular muss der Pfad folgenderma&szlig;en aussehen: <b>$ttf = "/home/www/kontaktformular/captcha/Imperator.ttf";</b></p>
+			   <p>( Nat&uuml;rlich d&uuml;rfen Sie auch nicht vergessen den Ordner <b>captcha</b> anzugeben, da die Schriftart in diesem hinterlegt ist. ;-) )</p></li>
+			   <li><p>Der Sicherheitscode sollte nun angezeigt werden!</p>	
+			   
+			   
+			   <p><b>VIDEO Installationsanleitung: Hilfe - Der Sicherheitscode wird nicht angezeigt!?</b> </p>
+
+      
+      <p><object type="application/x-shockwave-flash" style="width:425px; height:344px;" data="http://www.youtube.com/v/K39Mu_9I3dc">
+<param name="movie" value="http://www.youtube.com/v/K39Mu_9I3dc" />
+</object></p><br /> Bitte doppelt anklicken, um auf YouTube zu gelangen und das Video im Vollbildmodus anzusehen. Das Video wurde mit der Bildschirmaufl&ouml;sung 1280x800 Pixel erstellt.</li>
+      
+      </ol></div><br />
+      
+      
+			   
+
+<div class="content-box-left-in"><p style="color:red;"><b>Warum erhalte ich, trotz korrekter Eingabe des Sicherheitscodes, die Fehlermeldung "Der Sicherheitscode wurde falsch eingegeben." ??</b></p></div>
+
+ <div class="content-box-left-install"><p>Bitte &uuml;berpr&uuml;fen Sie, ob Sie in der Datei config.php in Zeile 2 Ihre E-Mail Adresse eingetragen haben.</p></div><br />
+  
+   <div class="content-box-left-in"><p style="color:red;"><b>Ich erhalte die folgende Fehlermeldung, sobald ich die kontakt.php &ouml;ffne: Parse error: syntax error, unexpected T_STRING, expecting T_OLD_FUNCTION or T_FUNCTION or T_VAR or \'}\' in /var/www/***/html/***/AntiSpam.php on line 17</b></p></div>
+
+ <div class="content-box-left-install"><p>Diese Fehlermeldung sagt aus, dass auf Ihrem Server nur PHP 4 installiert ist. Um das Kontaktformular (mit Sicherheitsfrage) nutzen zu k&ouml;nnen, ist es erforderlich, dass auf Ihrem Server mind. PHP 5.2 installiert ist. Bitte kontaktieren sie Ihren Webhoster. Dieser wird diese &Auml;nderung (in den meisten F&auml;llen kostenlos) f&uuml;r Sie &uuml;bernehmen.</p></div>
+   <br />
+	<div class="content-box-left-in"> <h3>Kostenloser Installationsservice</h3></div>
+
+<div class="content-box-left-install"><p>Sollte es dennoch Probleme bei der Installation oder Konfiguration der Software geben, stehen wir Ihnen selbstverst&auml;ndlich rund um die Uhr mit unserem kostenlosen Installationsservice zur Verf&uuml;gung. Teilen Sie uns hierbei bitte &uuml;ber unser <a href="http://www.kontaktformular.com/impressum-script-php-kontakt-formular.html">Formular</a> Ihre Kontaktdaten mit. Wir setzen uns innerhalb von 12 Stunden mit Ihnen in Verbindung!</p></div><br />
+
+
+
+
+				<div class="content-box-left-in"> <h3>Info</h3></div>
+
+<div class="content-box-left-install"><p>Mit diesem Script k&ouml;nnen Sie Ihren Besuchern die M&ouml;glichkeit bieten, Sie zu kontaktieren. Das Formular wird per Mail an den Webmaster geschickt. Als Schutz vor Spam wird ein Sicherheitscode verwendet. Optional kann auch ein E-Mail Attachment Feld hinzugef&uuml;gt werden. Der Copyrightvermerk in der Fu&szlig;zeile des Scripts darf nicht entfernt werden. Wer ihn dennoch entfernen m&ouml;chte, muss eine non-copyright Lizenz erwerben. Bitte f&uuml;llen Sie hierzu das <a href="http://www.kontaktformular.com/lizenz-script-php-kontakt-formular.html">Bestellformular</a> aus. Wenn Sie das Kontaktformular auf einer kommerziellen Website nutzen m&ouml;chten, m&uuml;ssen Sie eine kommerzielle Lizenz erwerben. Bitte nutzen Sie hierzu auch das <a href="http://www.kontaktformular.com/lizenz-script-php-kontakt-formular.html">Bestellformular</a>. Sie haben vor dem Download diesen Bedingungen durch das Akzeptieren der Lizenzbestimmungen zugestimmt.</p></div>
+
+
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			<!-- Content left end -->
+
+<hr class="noscreen" />
+
+			<!-- Content right -->
+			<div class="content-box-right">
+				<h4>Linktipp</h4>
+				<div class="content-box-right-in">
+					<dl>
+						<dd class="heading"><a href="http://www.michatronic.de/scripts/script-newsletter-Script-V.3.0-PHP.html" title="PHP Newsletter Script">Newsletter Script</a></dd>
+							<dd>Die optimale L&ouml;sung f&uuml;r Ihr E-Mail Marketing!</dd>
+							<dd class="heading"><a href="http://www.michatronic.de/scripts/script-umfrage-Script-V.3.0-PHP.html" title="PHP Umfrage Script">Umfrage Script</a></dd>
+							<dd>Bereicherung &amp; echtes Plus f&uuml;r Ihre Website!</dd>
+					</dl>
+				</div>
+				<h4>Individuelles Formular</h4>
+				<div class="content-box-right-in">
+					<dl>
+						<dd class="heading"></dd>
+							<dd>Sie ben&ouml;tigen f&uuml;r Ihre Homepage ein individuelles Anfrageformular? Kein Problem! <a href="http://www.kontaktformular.com/individuell-script-php-kontakt-formular.html">Schreiben Sie uns!</a></dd>
+						
+					</dl>
+				</div>
+			<div id="column-right-bottom">&nbsp;</div>
+			</div>
+			<!-- Content right end -->
+			<div class="cleaner">&nbsp;</div>
+		</div>
+	</div>
+
+<hr class="noscreen" />
+
+<!-- Footer -->
+	<div id="footer">
+		<p class="left"><a class="b" href="http://www.kontaktformular.com/impressum-script-php-kontakt-formular.html">Impressum</a>&nbsp;&nbsp;<a class="b" href="http://www.kontaktformular.com/sitemap-script-php-kontakt-formular.html">Sitemap</a>&nbsp;&nbsp;<a class="b" href="http://www.kontaktformular.com/faq-script-php-kontakt-formular.html">FAQ</a>&nbsp;&nbsp;<a class="b" href="http://www.kontaktformular.com/wissenswertes-script-php-kontakt-formular.html">Wissenswertes</a></p>
+		<p class="right">&copy; kontaktformular.com</p>
+	</div>
+	<!-- Footer end -->
+</div>
+</body>
+</html>

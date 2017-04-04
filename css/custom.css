@@ -1,0 +1,145 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  background-color: black;
+}
+
+.navbar-header a {
+	font-family: 'Courgette', cursive;
+	font-size: 25px;
+}
+
+ul.nav {
+	font-family: 'Courgette', cursive;
+	font-size: 17px;
+}
+
+.top {
+	background-color: black;
+	text-align: center;
+	padding-bottom: 70px;
+	font-family: 'Courgette', cursive;
+}
+
+.top p {
+	color: #c1c1c1;
+	font-size: 17px;
+}
+
+.homepage h2 {
+	text-align: center;
+}
+
+.homepage p {
+	text-align: center;
+	color: #c1c1c1;
+	font-family: 'Courgette', cursive;
+	font-size: 17px;
+}
+
+.homepage a:hover {
+	text-decoration: none;
+	opacity: 1;
+}
+
+
+
+.btn-default {
+	opacity: .8;
+}
+
+
+.top hr {
+	border-color: #c1c1c1;
+	width: 160px;
+	margin-top: 15px;
+}
+
+.homepage hr {
+	border-color: #c1c1c1;
+	width: 200px;
+	margin-top: 15px;
+}
+
+
+.caption {
+	background-color: black;
+}
+
+.btn-default {
+	margin-bottom: 50px;
+}
+
+
+
+footer {
+	text-align: center;
+}
+
+	.bottom {
+    	padding-right: 57px;
+}
+
+/* Responsive Styling */
+
+/* @media (max-width: 1199px) {
+		.top h1 {
+			font-size: 32px;
+			margin-bottom: 30px;
+		}
+
+		.top p {
+			font-size: 13px;
+		}
+} */
+
+@media (max-width: 991px) {
+		ul.nav {
+			font-size: 15px;
+		}
+	}
+
+
+@media (max-width: 767px) {
+		ul.nav {
+			font-size: 15px;
+		}
+
+		.homepage h2 {
+			font-size: 25px;
+		}
+
+		.homepage p {
+			font-size: 13px;
+		}
+
+		.bottom {
+    		padding-right: 25px;
+		}
+		
+
+
+@media (max-width: 600px) {
+		ul.nav {
+			font-size: 15px;
+		}
+
+		.homepage h2 {
+			font-size: 25px;
+		}
+
+		.homepage p {
+			font-size: 13px;
+		}
+
+		.top h1 {
+			font-size: 25px;
+
+		}
+
+		.top p {
+			font-size: 13px;
+		}
+}
+

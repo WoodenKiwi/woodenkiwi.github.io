@@ -1,0 +1,21 @@
+<div class="gb_pagebrowser">
+	<div class="gb_pagebrowser_left">
+		<form action="admin.php" method="get">
+			<p>
+				<span class="gb_pagebrowser_entry_qty">###ENTRIES_QTY### ###entries### ###on### ###PAGES_QTY### ###pages###</span>
+				<span class="gb_pagebrowser_page_form">
+					###got_to_page###: 
+					<input type="text" name="page" class="gb_pagebrowser_input" value="" />
+					<input type="hidden" name="action" value="get_entries" />
+					<input type="submit" class="gb_pagebrowser_submit" value="###ok###" />
+				</span>
+			</p>
+		</form>
+	</div>	
+	<div class="gb_pagebrowser_right">
+		<p>
+			<span class="gb_pagebrowser_pages">###page### ###CURRENT_PAGE### ###of### ###PAGES_QTY###</span> <span class="gb_pagebrowser_prev">[###PREV_PAGE_LINK###]</span> <span class="gb_pagebrowser_next">[###NEXT_PAGE_LINK###]</span>
+		</p>
+	</div>
+	<div class="clear"></div>
+</div>

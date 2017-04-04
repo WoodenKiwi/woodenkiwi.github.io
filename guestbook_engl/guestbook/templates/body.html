@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="robots" content="index, follow" />
+		<title>###title###</title>
+		<link href="guestbook/style.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript">
+			// resize the frame if the script is included via frame
+			function frameResize(){
+				if(null!=parent.document.getElementById('guestbook')){
+					parent.document.getElementById('guestbook').style.height=eval(document.getElementsByTagName('body')[0].offsetHeight + 100)+'px';
+				}
+			}
+		</script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	</head>
+	<body onload="frameResize();">
+		###CONTENT###
+	</body>
+</html>

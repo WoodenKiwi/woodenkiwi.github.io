@@ -1,0 +1,60 @@
+<a name="entry###ID###"></a>
+<form action="admin.php" method="post" class="gb_form" accept-charset="UTF-8">
+	<div class="gb_entry ###ACTIVATION_CLASS###">
+		<input type="hidden" name="action" value="save_entry" />
+		<input type="hidden" name="all_data" value="1" />
+		<input type="hidden" name="page" value="###PAGE###" />
+		<input type="hidden" name="id" value="###ID###" />
+		
+		<div class="gb_entry_body">
+			<div class="gb_entry_header">
+				<strong>###edit_entry###</strong>
+			</div>
+			<div class="gb_form_body">	
+
+				<p class="gb_form_required">* ###required_fields###</p>
+			
+				<div class="gb_form_row">
+					<label>###name### *</label>
+					<input type="text" name="name" value="###NAME###" />
+				</div>	
+				<div class="gb_form_row">
+					<label>###city###</label>
+					<input type="text" name="city" value="###CITY###" />
+				</div>	
+				<div class="gb_form_row">
+					<label>###email###</label>
+					<input type="text" name="email" value="###EMAIL###" />
+				</div>	
+				
+				
+				<div class="gb_form_message">
+					<label>###message### *</label>
+					<div class="gb_form_smileys">###SMILEYS_MESSAGE###</div>
+					<textarea rows="20" cols="50" name="message" id="gb_form_messagebox_###ID###">###MESSAGE###</textarea>
+				</div>
+				
+				<div class="gb_entry_comment">
+					<p class="gb_entry_comment_header"><strong>###comment###</strong>, ###COMMENT_DATE### ###wrote_time### ###COMMENT_TIME### ###o_clock###</p>
+					<div class="gb_entry_comment_body" >
+						<div class="gb_form_smileys">###SMILEYS_COMMENT###</div>
+						<textarea rows="20" cols="50" name="comment" id="gb_form_commentbox_###ID###">###COMMENT###</textarea>
+					</div>
+				</div>
+			</div>
+
+			<div class="gb_form_buttons">
+				<p class="gb_form_activation">
+					<input type="checkbox" name="active" value="1" ###ACTIVATION### /> ###active###
+				</p>
+				<p class="gb_form_submit">
+					<input type="submit" name="delete_entry" value="###delete###" onclick="return confirm('###confirm_delete###');" />
+				</p>
+				<p class="gb_form_submit">
+					<input type="submit" value="###save###" />
+				</p>				
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+</form>

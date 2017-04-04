@@ -1,0 +1,69 @@
+<h1>###configuration###</h1>
+
+<form action="admin.php" method="post" class="configform">
+	###MESSAGE###
+	<table>
+		<tr>
+			<td>###loginname###</td>
+			<td><input type="text" name="ADMIN_NAME" value="###ADMIN_NAME_VALUE###" /></td>
+		</tr>
+		<tr>
+			<td>###password###</td>
+			<td><input type="text" name="ADMIN_PASS" value="###ADMIN_PASS_VALUE###" /></td>
+		</tr>		
+		<tr>
+			<td>###adminemail###</td>
+			<td><input type="text" name="ADMIN_MAIL" value="###ADMIN_MAIL_VALUE###" /></td>
+		</tr>		
+		<tr>
+			<td>###send_new_entry_mail###</td>
+			<td>
+				<label><input class="checkbox" type="radio" name="NEW_ENTRY_MAIL" value="1" ###NEW_ENTRY_MAIL_VALUE_YES### /> ###yes###</label>
+				<label><input class="checkbox" type="radio" name="NEW_ENTRY_MAIL" value="0" ###NEW_ENTRY_MAIL_VALUE_NO### /> ###no###</label>
+			</td>
+		</tr>
+		<tr>
+			<td>###language###</td>
+			<td>###LANGUAGES###</td>
+		</tr>		
+		<tr>
+			<td>###entries_per_page###</td>
+			<td><input type="text" name="ENTRIES_PER_PAGE" value="###ENTRIES_PER_PAGE_VALUE###" /></td>
+		</tr>		
+		<tr>
+			<td>###enable_entries_before_display###</td>
+			<td>
+				<label><input class="checkbox" type="radio" name="ENABLE_ENTRIES" value="1" ###ENABLE_ENTRIES_VALUE_YES### /> ###yes###</label>
+				<label><input class="checkbox" type="radio" name="ENABLE_ENTRIES" value="0" ###ENABLE_ENTRIES_VALUE_NO### /> ###no###</label>
+			</td>
+		</tr>
+		<tr>
+			<td>###max_name_characters###</td>
+			<td><input type="text" name="MAX_NAME_CHARACTERS" value="###MAX_NAME_CHARACTERS_VALUE###" /></td>
+		</tr>		
+		<tr>
+			<td>###max_city_characters###</td>
+			<td><input type="text" name="MAX_CITY_CHARACTERS" value="###MAX_CITY_CHARACTERS_VALUE###" /></td>
+		</tr>		
+		<tr>
+			<td>###max_email_characters###</td>
+			<td><input type="text" name="MAX_EMAIL_CHARACTERS" value="###MAX_EMAIL_CHARACTERS_VALUE###" /></td>
+		</tr>		
+			
+		<tr>
+			<td>###max_message_characters###</td>
+			<td><input type="text" name="MAX_MESSAGE_CHARACTERS" value="###MAX_MESSAGE_CHARACTERS_VALUE###" /></td>
+		</tr>		
+		<tr>
+			<td>###enable_securequestion###<br/><a href="admin.php?action=get_securequestions">###edit_securequestion###</a></td>
+			<td>
+				<label><input class="checkbox" type="radio" name="ENABLE_SECUREQUESTION" value="1" ###ENABLE_SECUREQUESTION_VALUE_YES### readonly /> ###yes###</label>
+				<label><input class="checkbox" type="radio" name="ENABLE_SECUREQUESTION" value="0" ###ENABLE_SECUREQUESTION_VALUE_NO### readonly /> ###no###</label>
+			</td>
+		</tr>	
+	</table>
+	<p>
+		<input type="hidden" name="action" value="save_config" />
+		<input class="button" type="submit" name="save" value="###save###" />
+	</p>
+</form>

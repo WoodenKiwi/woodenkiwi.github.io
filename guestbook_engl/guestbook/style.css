@@ -1,0 +1,374 @@
+/******************** style for website ***************/
+
+
+/* common styles */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+	background: black;
+	font-family: 'Courgette', cursive;
+}
+
+body{
+	max-width: 650px;
+	margin: 40px auto;
+	padding: 30px;
+	font-family: arial, helvetica;
+	font-size: 12px;
+	line-height: 140%;
+	background: #c1c1c1;
+	font-family: 'Courgette', cursive;
+}
+
+
+h1 {
+	font-size: 27px;
+	margin-bottom: 35px;
+	text-align: center;
+	line-height: 110%;
+	}
+
+a{
+	color: black;
+}
+a:hover{
+	color: #e36815;
+}
+
+p{
+	margin-bottom: 15px;
+	color: black;
+}
+
+
+.gb_error{
+	padding: 5px 10px;
+	background: #fee;
+	color: #f00;
+	border: 1px solid #f00;
+	max-width: 495px;
+}
+
+.gb_message{
+	padding: 5px 10px;
+	background: #efe;
+	color: #090;
+	border: 1px solid #090;
+	max-width: 495px;
+}
+
+.gb_clear{
+	clear: both;
+}
+
+
+
+
+
+/* entry-list */
+
+.gb_new_entry_link{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+
+.gb_pagebrowser{
+	margin-top: 30px;
+}
+	.gb_pagebrowser p{
+		margin-bottom: 0px;
+	}
+	.gb_pagebrowser_left{
+		float: left;
+	}
+		.gb_pagebrowser_entry_qty{
+			display: inline-block;
+			border-right: solid 1px #000;
+			padding-right: 5px;
+		}
+		.gb_pagebrowser_page_form{
+			display: inline-block;
+			padding-left: 3px;
+		}
+		.gb_pagebrowser_input{
+			width: 25px;
+			border: #333 1px solid;
+			padding: 2px 3px;
+		}
+		.gb_pagebrowser_submit{
+			background: none;
+			border: none;
+			cursor: pointer;
+			font-weight: bold;
+		}
+	.gb_pagebrowser_right{
+		margin-top: 5px;
+		float: right;
+	}
+		.gb_pagebrowser_prev a,
+		.gb_pagebrowser_next a{
+			font-weight: bold;
+		}
+
+.gb_entries{
+}
+	.gb_entry{
+		margin: 20px 0px 20px 0px;
+		padding-bottom: 6px;
+		background: url(images/shadow.png) repeat-x bottom;
+	}
+		.gb_entry_body{
+			border: 1px solid #DBDADA;
+		}
+			.gb_entry_header{
+				background: #DEF1FE;
+				border-bottom: 1px solid #DBDADA;
+				padding: 3px 10px;
+				font-size: 13px;
+			}
+				.gb_entry_header strong{
+					font-weight: bold;
+				}
+				.gb_entry_header_left{
+					float: left;
+				}
+					.gb_entry_header_left div{
+						display: inline;
+					}
+				.gb_entry_header_right{
+					float: right
+				}
+					.gb_entry_email,
+					.gb_entry_web{
+						display: block;
+						float: left;
+						width: 15px;
+						margin-left: 10px;
+						text-decoration: none;
+					}
+					.gb_entry_email{
+						background: url(images/email.png) no-repeat;
+						height: 11px;
+						margin-top: 2px;
+					}				
+					.gb_entry_web{
+						background: url(images/web.png) no-repeat;
+						height: 15px;
+					}
+			.gb_entry_text{
+				padding: 10px 10px 0px 10px;
+				color: #000000;
+			}
+				.gb_entry_text p{
+					padding-bottom: 15px;
+					border-bottom: 1px solid #DBDADA;
+				}
+
+			.gb_entry_comment{
+				margin: 0px 10px 15px 10px;
+				border: 1px solid #E6EDF2;
+				/*background: #F3F9FD;*/
+				background: #E8F5FF;
+			}
+				.gb_entry_comment .gb_entry_comment_header{
+					border-bottom: 1px solid #E6EDF2;
+					padding: 3px 10px;
+				}
+					.gb_entry_comment_header strong{
+						font-weight: bold;
+					}
+				.gb_entry_comment p{
+					padding: 7px 10px;
+					margin-bottom: 0px;
+				}
+
+
+				
+/* entry-form */
+				
+.gb_form_back_link{
+	text-align: center;
+}
+.gb_form{
+	width: 100%;
+	max-width: 495px;
+	margin: auto;
+}				
+	.gb_form_box{
+		margin: 20px 0px 20px 0px;
+		padding-bottom: 6px;
+		border: 1px solid #DBDADA;
+	}
+		.gb_form_header{
+			background: #DEF1FE;
+			border-bottom: 1px solid #DBDADA;
+			padding: 3px 10px;
+			font-size: 13px;
+			font-weight: bold;
+		}
+		.gb_form_body{
+			padding: 10px;
+		}
+			.gb_hidden_row{
+				display: none;
+			}
+			.gb_form_row,
+			.gb_form_message{
+				margin: 3px 0px;
+				clear: both;
+			}
+			.gb_form_row label{
+				width: 160px;
+				font-weight: bold;
+				display: block;
+				float: left;
+			}			
+				.gb_form_row label span,
+				.gb_form_message label span{
+					font-weight: normal;
+					font-size: 10px;
+					padding-left: 5px;
+				}
+				.gb_form .gb_form_message input{
+					width: 40px;
+				}
+			.gb_form input, 
+			.gb_form textarea{
+				width: 100%;
+				max-width: 310px;
+				padding: 3px;
+				border: 1px solid #bfbfcc;
+				box-sizing: border-box;
+			}
+			.gb_form textarea{
+				max-width: 100%;
+			}
+			.gb_form_message{
+				margin-top: 30px;
+			}
+				.gb_form_message label{
+					font-weight: bold;
+				}
+				.gb_form_message p{
+					margin-bottom: 6px;
+					font-size: 11px;
+				}
+				.gb_form_message textarea{
+					width: 100%;
+					height: 150px;
+					box-sizing: border-box;
+				}
+				.gb_form_smileys div{
+					float: left;
+					cursor: pointer;
+					padding: 5px 0px;
+				}
+			.gb_form_securequestion{
+				margin-top: 30px;
+			}
+				.gb_form_securequestion label {
+					width: auto;
+					float: none;
+				}
+					.gb_form_securequestion label span{
+						padding-left: 0px;
+						font-size: 12px;
+					}
+				.gb_form_securequestion input{
+					width: 160px;
+					margin-top: 6px;
+				}
+				
+	.gb_form_buttons{
+		text-align: center;
+	}
+		.gb_form_buttons p{
+			display: inline;
+		}
+		.gb_form_buttons input{
+			background: #A8DCFF;
+			color: #000;
+			cursor: pointer;
+			height: auto;
+			width: 150px;
+			font-size: 12px;
+			border: solid 1px #85ABC4;
+			padding: 5px 0px 5px 0px;
+			margin: 0px 2px;
+		}
+		.gb_form_buttons a{
+			text-decoration: none;
+		}
+		
+		
+
+@media screen and (max-width: 670px) {
+	body{
+		margin-top: 10px;
+		padding: 20px;
+	}
+	.gb_pagebrowser_left,
+	.gb_pagebrowser_right{
+		float: none;
+	}
+	
+	.gb_pagebrowser_left, 
+	.gb_pagebrowser_right{
+		text-align: center;
+	}
+	.gb_form_submit, 
+	.gb_form_button{
+		float: left;
+		width: 31%;
+		margin-right: 2%;
+	}		
+	.gb_form_preview .gb_form_submit, 
+	.gb_form_preview .gb_form_button{
+		width: 48%;
+		margin-right: 2%;
+	}		
+	.gb_form_button{
+		margin-right: 0px;
+	}
+		.gb_form_submit input,
+		.gb_form_button input{
+			width: 100%;
+		}	
+	.gb_entry_header_left div{
+		display: block;
+	}
+
+	.gb_entry_body input,
+	.gb_form input, .gb_form textarea{
+		box-sizing: border-box;
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	body{
+		margin-top: 10px;
+		padding: 10px 10px 20px 10px;
+	}
+	h1{
+		font-size: 21px;
+	}
+
+	.gb_pagebrowser_entry_qty{
+		display: block;
+		border-right: none;
+		padding-right: 0px;
+	}
+	.gb_pagebrowser_page_form{
+		display: block;
+		padding-left: 0px;
+	}
+	.gb_pagebrowser_pages{
+		display: block;
+	}
+}
+

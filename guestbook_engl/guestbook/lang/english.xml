@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<texts>
+	<!-- texts for the website -->
+	<text name="page">Page</text>
+	<text name="pages">Pages</text>
+	<text name="got_to_page">Go to page</text>
+	<text name="prev_page">Previous page</text>
+	<text name="next_page">Next page</text>
+	<text name="ok">Ok</text>
+	<text name="entries">Entries</text>
+	<text name="entry_nr">Entry no.</text>
+	<text name="title">yellabook.de</text>
+	<text name="guestbook">Guestbook</text>
+	<text name="new_entry">New guestbook-entry</text>
+	<text name="no_entries">There are no entries.</text>
+	<text name="create_new_entry">Create new entry</text>
+	<text name="wrote_date">on</text>
+	<text name="wrote_time">at</text>
+	<text name="o_clock">o'clock</text>
+	<text name="from_city">from</text>
+	<text name="from_person">from</text>
+	<text name="comment">Comment</text>
+	<text name="of">of</text>
+	<text name="on">on</text>
+	<text name="back_to_guestbook">« Back to the guestbook</text>
+	<text name="change">Change</text>
+	<text name="name">Name</text>
+	<text name="city">City</text>
+	<text name="email">Email</text>
+	<text name="web">Website</text>
+	<text name="message">Message</text>
+	<text name="dont_insert_text">Please do not fill out!</text>
+	<text name="required_fields">Required fields</text>
+	<text name="save">Save</text>
+	<text name="cancel">Cancel</text>
+	<text name="preview">Preview</text>
+	<text name="smiley_info">If you like to insert a smiley: Click on the smiley or write the text - which is displayed when you move the mouse over the smiley - in the textfield.</text>
+	<text name="max">max.</text>
+	<text name="characters">characters</text>
+	<text name="free_characters">Free characters</text>
+	<text name="save_successful_with_adminmail">Your entry has been successfully saved. The entry will be displayed when the admin of this website has enabled the entry.</text>
+	<text name="save_successful">Your entry has been successfully saved.</text>
+	<text name="save_problem">An error occured when saving your entry</text>
+	<text name="spamprotection">Spam Protection</text>
+	<text name="securequestion_info">Please answer the following security-question.</text>
+  <text name="entryinpreview">Entry</text>
+	
+	<!-- texts for the admin-area -->
+	<text name="guestbook_email">Guestbook</text>
+	<text name="adminarea">Admin-Area</text>
+	<text name="loginname">Username</text>
+	<text name="password">Password</text>
+	<text name="login">Login</text>
+	<text name="configuration">Configurations</text>
+	<text name="backup">Backup</text>
+	<text name="download_backup">Download backup</text>
+	<text name="logout">Logout</text>
+	<text name="adminemail">Email</text>
+	<text name="send_new_entry_mail">Send email for new entry</text>
+	<text name="yes">Yes</text>
+	<text name="no">No</text>
+	<text name="language">Language</text>
+	<text name="entries_per_page">Entries per page</text>
+	<text name="enable_entries_before_display">Enable entries before display</text>
+	<text name="max_name_characters">Max. characters for name</text>
+	<text name="max_city_characters">Max. characters for city</text>
+	<text name="max_email_characters">Max. characters for email</text>
+	<text name="max_web_characters">Max. characters for homepage</text>
+	<text name="max_message_characters">Max. characters for message</text>
+	<text name="save_config_successful">The saving of the configurations was successful.</text>
+	<text name="save_entry_successful">The saving of the entry was successful.</text>
+	<text name="delete_entry_successful">The deleting of the entry was successful.</text>
+	<text name="entry_id">Entry-ID</text>
+	<text name="active">Display entry</text>
+	<text name="delete">Delete</text>
+	<text name="edit">Edit</text>
+	<text name="edit_entry">Edit entry</text>
+	<text name="confirm_delete">Do you really want to delete this entry?</text>
+	<text name="securequestions">Security-Questions</text>
+	<text name="notice">Notice</text>
+	<text name="notice_securequestions">Please use only non-ambiguous questions where the answer is a number!</text>
+	<text name="question">Question</text>
+	<text name="answer">Answer</text>
+	<text name="save_securequestions_successful">The saving of the security-questions was successful.</text>
+	<text name="enable_securequestion">Security-Question in the guestbook</text>
+  <text name="edit_securequestion">Edit Security-Question</text>
+  <text name="to_guestbook">To Guestbook</text>
+  <text name="entryinacp">Entry</text>
+	<!-- error-messages -->
+	<text name="error_wrong_login">Wrong login</text>
+	<text name="error_cant_access_language_dir">No access to the language-folder "lang"</text>
+	<text name="error_cant_open_config_file">Couln't open the config-file.</text>
+	<text name="error_cant_save_temp_config_file">Couldn' save the temporarily config-file.</text>
+	<text name="error_cant_create_config_temp_file">Coun't create the temporarily config-file.</text>
+	<text name="error_cant_create_temp_file">Coun't create the temporarily data-file.</text>
+	<text name="error_cant_save_temp_file">Coun't save the temporarily data-file.</text>
+	<text name="error_cant_save_file">Coun't save the data-file.</text>
+	<text name="error_couldnt_send_adminmail">Couldn't send the e-mail to the admin.</text>
+	<text name="error_session_is_over">Your session is over.</text>
+	<text name="error_bot_warning">There is a suspicion of spam. Please wait some seconds before sending the form.</text>
+	<text name="error_bot_warning_hidden_field">There is a suspicion of spam. Please don't fill in any text in the field with the label "Please do not fill out!"!</text>
+	<text name="error_message_is_too_long">The text for the message is too long. The allowed number of characters are </text>
+	<text name="error_no_message_given">Please insert a message!</text>
+	<text name="error_web_is_too_long">The text for the website is too long. The allowed number of characters are </text>
+	<text name="error_email_is_too_long">The text for the e-mail is too long. The allowed number of characters are </text>
+	<text name="error_no_valid_email">Your e-mail ist not correct.</text>
+	<text name="error_city_is_too_long">The text for the city is too long. The allowed number of characters are </text>
+	<text name="error_name_is_too_long">The text for the name is too long. The allowed number of characters are </text>
+	<text name="error_no_name_given">Please insert your name!</text>
+	<text name="error_no_entry_to_delete">Couldn't find the entry you wish to delete.</text>
+	<text name="error_cant_open_securequestions_file">Couldn't open the file for the security-questions.</text>
+	<text name="error_cant_create_securequestions_temp_file">Couldn't create the temporarily file for the security-questions.</text>
+	<text name="error_cant_save_temp_securequestions_file">Couldn't save the temporarily file for the security-questions.</text>
+	<text name="error_wrong_securequestion_answer">The answer for the security-question is not correct.</text>
+	
+  <text name="copyright"><a href="http://www.yellabook.de/en" style="text-decoration: none;">yellabook.de - All rights reserved.</a></text>
+  <text name="guestbook_copyright"><strong><a href="http://www.yellabook.de/en" style="text-decoration: none;" title="Guestbook">Guestbook</a></strong></text>
+  <text name="advertising">Advertising</text>
+ <text name="contactform"><a href="http://www.kontaktformular.com/en" style="text-decoration: none;" title="Contact Form">Contact Form</a></text>
+</texts>
